@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.141" fx:controller="pidev.GUI.ModifierboutController">
+   <children>
+      <Button fx:id="btnmod" layoutX="284.0" layoutY="321.0" mnemonicParsing="false" onAction="#ModifierBoutique" text="Button" />
+      <TextField fx:id="nomboutmod" layoutX="365.0" layoutY="102.0" />
+      <TextField fx:id="addmod" layoutX="365.0" layoutY="159.0" />
+      <TextField fx:id="numtelmod" layoutX="365.0" layoutY="216.0" />
+      <TextField fx:id="immod" layoutX="365.0" layoutY="259.0" />
+      <Label fx:id="nomlab" layoutX="122.0" layoutY="106.0" text="Nom boutique" />
+      <Label fx:id="adrlab" layoutX="122.0" layoutY="151.0" text="Adresse" />
+      <Label fx:id="numlab" layoutX="122.0" layoutY="220.0" text="Numero telephone" />
+      <Label fx:id="imlab" layoutX="122.0" layoutY="263.0" text="Image" />
+      <Label layoutX="161.0" layoutY="31.0" prefHeight="17.0" prefWidth="269.0" text="Modifier boutique">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
